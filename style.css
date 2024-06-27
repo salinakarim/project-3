@@ -1,0 +1,201 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.header-container{
+    width: 100%;
+    height: 1000px;
+    background-image:linear-gradient(to right,#0f0715,#0f0715, #0f0715,#0f0715,   #281644) ;
+    color: white;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+
+}
+.nav-link>li{
+    list-style: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.nav-link a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: white;
+    
+}
+.nav-container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    align-items: center;
+}
+.nav-button{
+    padding: 10px 40px ;
+    border-radius: 30px;
+    background-color: #51239c;
+    font-weight: bolder;
+    color: white;
+    border: none;
+    margin-left: 10px;
+}
+.text-section{
+    width: 50%;
+    height: 300px;
+    padding: 30px;
+    margin-left: 20px;
+}
+.section-button{
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    border-color: blueviolet;
+    color: blueviolet;
+    
+
+}
+.banner-container{
+    width: 90%;
+    margin: auto;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.img-section{
+    width: 30%;
+}
+.banner-button{
+    padding: 15px 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    margin-right: 20px;
+    background-color: #281644;
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.banner-button:hover{
+    background-color: dodgerblue;
+    border: 2px solid navy;
+    color: #281644;
+}
+.banner-icon{
+    font-size: 25px;
+    color: #421689;
+    margin-right: 5px;
+    padding: 7px 10px;
+    border-radius: 50%;
+}
+.banner-icon:hover{
+    border: 2px solid blueviolet;
+    background-color: ;
+    color: white;
+    transition: all 0.3s ease-in;
+}
+.banner-image{
+    width: 80%;
+    height: 350px;
+    border: 3px solid rgba(7, 7, 155, 0.068);
+    background-color: #190a25;
+    transform: rotateZ(3deg);
+
+}
+.banner-image:hover{
+    transform: rotateZ(-3deg);
+    transition: all 0.5s ease-in;
+    border: 1px solid lightskyblue;
+    box-shadow: 2px 2px 5px lightskyblue;
+    border-radius: 20px;
+}
+.experience-container{
+    width: 90%;
+    margin: auto;
+    height: 200px;
+    justify-content: space-around;
+    display: flex;
+
+}
+.experience-elements{
+    width: 150px;
+font-size: 12px;
+color: gainsboro;
+}
+.experience-number{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+ /* main section started here  */
+.quality-section{
+    background-color: black;
+    height: 800px;
+    color: white;
+}
+.quality-text{
+text-align: center;
+padding: 100px 300px;
+
+}
+.quality-text>h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    background: -webkit-linear-gradient(#8e5af8,#8e5af8,#8e5af8,#ebe1fd);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.quality-service{
+    width: 90%;
+    margin: auto;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 3px solid red; */
+    border-bottom: 1px solid blue;
+}
+.quality-service:hover{
+    background-color: #8e5af8;
+    color: white;
+    transition: all 0.5s ease-in;
+    border-radius: 30px;
+}
+.quality-box-1{
+    width: 30%;
+display: flex;
+justify-content:space-around;
+align-items: center;                                     
+}
+.quality-box-1:hover{
+
+}
+.quality-box-2{
+    width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0px 40px;
+color: gainsboro;                                     
+}
+.quality-box-3{
+    width: 20%;
+display: flex;
+justify-content: end; 
+   align-items: center; 
+   font-size: 80px;
+   font-weight: 400;
+   color: #8e5af8;
+   transform: rotateZ(45deg);                               
+}
+.quality-box-3:hover{
+    color: rgb(red, green, blue);
+}
